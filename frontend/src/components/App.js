@@ -7,13 +7,11 @@ import TopBar from './TopBar';
 
 class App extends Component {
   state = {
-    categories: null,
+    categories: null
   };
 
   render() {
-    return (
-      <Button />
-    );
+    return <Button />;
   }
 }
 
