@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Button from '@material-ui/core/Button';
-import logo from './logo.svg';
-import './App.css';
+//import logo from '../logos/logo.svg';
+import '../styles/App.css';
 import TopBar from './TopBar';
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
 
   render() {
     return (
-      <TopBar />
+      <Button />
     );
   }
 }
